@@ -1,0 +1,15 @@
+----CREATION OF NEW DATABASE
+
+----drop database if it exists
+USE master;
+GO
+ALTER DATABASE cars24 SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+GO
+DROP DATABASE cars24;
+GO
+
+IF DB_ID('cars24') IS NOT NULL
+	DROP DATABASE cars24
+	
+----create database
+CREATE DATABASE cars24
