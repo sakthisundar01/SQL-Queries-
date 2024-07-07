@@ -1,6 +1,3 @@
-# SQL-Queries-
-A comprehensive guide to essential SQL query functions designed to optimize and streamline database management and data analysis tasks.
-
 # Project Title: Data Management for CARS24 (Dummy Data)
 
 ## Overview
